@@ -183,6 +183,7 @@ div.bar .content .actions button {
   color: #3bb9e3;
   border: 1px solid #3bb9e3;
   border-radius: 16px;
+  background: #f8f8f8;
 
   margin-right: 20px;
 }
@@ -295,4 +296,154 @@ div.wrapper-content aside.profile .images ul li{
   flex-shrink: 0; */
   flex: 1 0 auto;
   margin: 0 5px 5px 0;
+}
+
+div.wrapper-content section.timeline {
+  flex: 1;
+}
+
+div.wrapper-content aside.widgets {
+  width: 290px;
+}
+
+div.wrapper-content aside.widgets .widget {
+  background: #fff;
+  padding: 15px;
+  margin-top: 10px;
+}
+
+div.wrapper-content aside.widgets .widget .title {
+  display: flex;
+  align-items: baseline;
+}
+
+div.wrapper-content aside.widgets .widget .title strong {
+  font-size: 18px;
+  color: #1f2226
+}
+
+
+div.wrapper-content aside.widgets .widget .title a {
+  font-size: 12px;
+  color: #3bb9e3;
+  text-decoration: none;
+  position: relative;
+  padding-left: 10px;
+}
+
+div.wrapper-content aside.widgets .widget .title a::before {
+  content: '';
+  width: 2px;
+  height: 2px;
+  border-radius: 50%;
+  background: #222;
+  position: absolute;
+  left: 4px;
+  top:6px;
+}
+
+div.wrapper-content aside.widgets .follow ul {
+  list-style: none;
+  margin-top: 10px;
+}
+
+div.wrapper-content aside.widgets .follow ul li {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #ccd6dd;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+
+div.wrapper-content aside.widgets .follow ul li:last-child {
+  margin-bottom: 0;
+  padding-bottom: 0;
+  border: 0;
+}
+
+div.wrapper-content aside.widgets .follow ul li .profile {
+  display: flex;
+  align-items: center;
+}
+
+div.wrapper-content aside.widgets .follow ul li .profile img {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+}
+
+div.wrapper-content aside.widgets .follow ul li .profile .info {
+  margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+div.wrapper-content aside.widgets .follow ul li .profile .info strong {
+  font-size: 14px;
+  color: #1f2326;
+}
+
+div.wrapper-content aside.widgets .follow ul li .profile .info span {
+  font-weight: normal;
+  color: #9a9a9a;
+}
+
+
+div.wrapper-content aside.widgets .follow ul li .profile .info button {
+  height: 24px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 90px;
+  font-weight: bold;
+  font-size: 14px;
+  color: #3bb9e3;
+  border: 1px solid #3bb9e3;
+  border-radius: 16px;
+  background: #f8f8f8;
+
+  margin-top: 4px;
+}
+
+div.wrapper-content aside.widgets .follow ul li > a {
+  color: #ccd6dd;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+div.wrapper-content aside.widgets div.trends ul {
+  list-style: none;
+  margin-top: 10px;
+}
+
+div.wrapper-content aside.widgets div.trends ul li {
+  margin-bottom: 4px;
+}
+
+div.wrapper-content aside.widgets div.trends ul li:last-child {
+  margin-bottom: 0;
+}
+
+div.wrapper-content aside.widgets div.trends ul li > a {
+  text-decoration: none;
+  color: #3bb9e3;
+}
+
+div.wrapper-content aside.widgets div.polices {
+  padding: 10px;
+  margin-top: 5px;
+}
+
+div.wrapper-content aside.widgets div.polices p {
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+  color: #667580;
+}
+
+div.wrapper-content aside.widgets div.polices p span {
+  margin-right: 2px;
+  font-weight: bold;
 }
